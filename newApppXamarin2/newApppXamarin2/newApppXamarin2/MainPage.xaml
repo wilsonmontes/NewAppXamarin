@@ -29,6 +29,10 @@
             FontAttributes="Bold"
             HorizontalOptions="Center"
             VerticalOptions="Center"
+            BorderColor="Azure"
+            BorderWidth="5"
+            Image="icono.png"
+            ContentLayout="Top,40"
         >
     </Button>
 
