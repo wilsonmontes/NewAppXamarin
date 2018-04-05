@@ -12,6 +12,17 @@ namespace newApppXamarin2
 		public MainPage()
 		{
 			InitializeComponent();
+            this.btnEnviar.Clicked += BtnEnviar_Clicked;
 		}
+
+        private void BtnEnviar_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Boton", "Evento desde CodeBehind", "Aceptar");
+        }
+
+        private void btn_Clicked(Object sender, EventArgs e)
+        {
+            DisplayAlert("Boton", "Evento desde XAML", "Aceptar");
+        }
 	}
 }

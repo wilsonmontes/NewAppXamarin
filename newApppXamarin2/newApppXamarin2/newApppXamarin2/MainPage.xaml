@@ -6,11 +6,30 @@
     <!--<ActivityIndicator Color="Aqua"
                        IsRunning="True">
     </ActivityIndicator>-->
-    <BoxView Color="Aquamarine"
+    <!--<BoxView Color="Aquamarine"
              WidthRequest="200"
              HeightRequest="200"
              HorizontalOptions="Center"
              VerticalOptions="Center">
-    </BoxView>
+    </BoxView>-->
+    <!--<Button Text="Enviar"
+            BackgroundColor="BlueViolet"
+            TextColor="Coral"
+            FontSize="Large"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Clicked="btn_Clicked"
+        >
+    </Button>-->
+    <Button Text="Enviar" x:Name="btnEnviar"
+            BackgroundColor="BlueViolet"
+            TextColor="Coral"
+            FontSize="Large"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+        >
+    </Button>
 
 </ContentPage>
