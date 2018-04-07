@@ -22,7 +22,7 @@
             Clicked="btn_Clicked"
         >
     </Button>-->
-    <Button Text="Enviar" x:Name="btnEnviar"
+    <!--<Button Text="Enviar" x:Name="btnEnviar"
             BackgroundColor="BlueViolet"
             TextColor="Coral"
             FontSize="Large"
@@ -34,6 +34,30 @@
             Image="icono.png"
             ContentLayout="Top,40"
         >
-    </Button>
-
+    </Button>-->
+    <!--<DatePicker x:Name="dtpFechaInicial"
+                Format="dd/MM/yyyy">
+    </DatePicker>-->
+    <!--<Editor HeightRequest="200"
+            Keyboard="Numeric"
+            FontAttributes="Bold"
+            FontSize="Large"
+            TextColor="Fuchsia"
+            x:Name="edDesc">
+    </Editor>-->
+    <!--<Entry
+        x:Name="entPassword"
+        VerticalOptions="Center"
+        IsPassword="False"
+        Placeholder="Ingresar password"
+        PlaceholderColor="Gray"
+        Text="Este es un texto"
+        TextColor="Aqua"
+        FontAttributes="Bold"
+        FontSize="Large">
+    </Entry>-->
+    <Image
+        Source="icono.png"
+        Aspect="AspectFit">
+    </Image>
 </ContentPage>

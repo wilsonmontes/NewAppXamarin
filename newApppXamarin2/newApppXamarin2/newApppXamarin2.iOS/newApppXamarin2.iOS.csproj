@@ -128,4 +128,7 @@
       <Name>newApppXamarin2</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\icono.png" />
+  </ItemGroup>
 </Project>
