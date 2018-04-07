@@ -56,8 +56,21 @@
         FontAttributes="Bold"
         FontSize="Large">
     </Entry>-->
-    <Image
+    <!--<Image
         Source="icono.png"
         Aspect="AspectFit">
-    </Image>
+    </Image>-->
+    <Label x:Name="lbControl"
+           VerticalOptions="Center"
+           TextColor="Aquamarine"
+           Text="La importancia de una vida saludable"
+           FontAttributes="Bold"
+           FontSize="Large"
+           BackgroundColor="Blue"
+           HorizontalTextAlignment="End"
+           HeightRequest="200"
+           VerticalTextAlignment="End"
+           LineBreakMode="WordWrap">
+            
+    </Label>
 </ContentPage>
